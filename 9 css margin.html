@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<!--  The bored-style property specifics What kind of border to display
+    The following values are allows:
+    #. dotted-Defines the dotted border
+    #. dashed- defines the dashed border
+    #. solid - defines the solid border
+    #. groove- defines a 3D grooved border. The effect depends on the border-color value.
+    #. ridge- defines a 3D ridge border. The effect depends on the border-color value.
+    #. inset- defines a 3D inset border. The effect depends on the border-color value.
+    #. outset- defines a 3D outset border. The effect depends on the border-color value.
+    #. none- defines no border.
+    #. hidden- defines a hidden border.
+ The border-style proprty can have from one to foure values(for the top, right, bottom, lift border).
+    # The width can be set in specifics size (in px, pt, cm, em etc).
+	# it also used by defined  the values (thin, medium, thick).
+	# The border indiviual size.
+	# The color-style property has foure values:
+	# Border- shourthand property.
+ The color can be set as=-
+    # name- specify a color name like "red".
+	# Hex - specify a hex value like "#ff0000".
+	# Rgb - specify a RGB value like "rgb(255,0,0)."-->
+
+<html>
+   <head>
+      <meta charset = "utf-8">
+	  <title>Margin</title>
+	  <style>
+	     div{
+		      border:5px solid red;
+			  margin-left:70px;
+		    }
+     p.Firew{
+		     margin-left:inherit; 
+		    }
+	     h1{
+	          border-style: solid;
+		      border-width: 5px;
+		      border-color: blue;
+	       }
+		 h2{
+		      border-right-style:dashed;
+			  border-left-width: 10px;
+			  border-color:red;
+			  margin: 20px 10px 40px 20px;
+		   }
+		 h3{
+		      border-style:dotted;
+			  border-width:5px;
+			  border-color:orange;
+		   }
+		 h4{
+		      border-style:dashed solid dotted outset;
+			  border-width:0.5cm;
+			  border-color: blue;
+		   }
+		 h5{
+		      border:10px dotted orange;
+		   }
+	  </style>
+   </head>
+   
+   <body>
+      <h1>This is good for you</h1>
+	  <h2>This is good job</h2>
+	  <h3>God beles you</h3>
+	  <h4>you Css Project</h4>
+	  <h5>It is also inculuding the HTML5</h5>
+	  <p>Let the left margin be inheritrd from the parent element.</p>
+	  <div>
+	     <p class = "Firew">This paragraph has an inherited left margin (from the div element).</p>
+	  </div>
+   </body>
+</html>
