@@ -1,0 +1,21 @@
+div.a{
+    /* background:url(./aj.jpg) no-repeat; */
+    border: 2px solid black;
+}
+img{
+   border: 3px dotted orange;
+   opacity: 0.5;
+   filter: alpha(opacity=60);
+}
+/* div.b{
+   margin: 30px;
+   background-color: #f00;
+   border: 1px dotted black;
+   opacity: 0.5;
+   filter: alpha(opacity=60);
+} */
+div.b p{
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
