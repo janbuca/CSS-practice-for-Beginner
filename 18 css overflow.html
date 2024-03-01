@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+    The overflow property has the following values
+  The CSS overflow property controls what happens to content that is too big fit into an area.
+    1. visible - Define. The overflow is not clipped It renders outside the element's box
+	2. hidden - The overflow is clipped and the rest of the content will be invisible.
+	3. scroll - The overflow is clipped, but a scrollbar is added to see the rest of the content.
+	4. auto   - It overflow is clipped, a scrollbar is added to see the rest of the content.
+  Note: THE overflow property only works for block elements with a specified height.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Overflow Property</title>
+    <link rel="stylesheet" href="./18 mystyle.css">
+</head>
+<body>
+    <div class = "visible">
+        <div>
+            Assign filenames to documents that describe their functionality. This practice can help you identify
+            documents faster. It also helps people who want to link to a page, by giving them an easy-tormenter
+            name. For example, if you are writing an XHTML document that contains product
+            information, you might want to call it products.html. 4.1
+            Computers called web servers running specialized software store XHTML documents.
+            Clients (e.g., web browsers) request specific resources such as the XHTML documents
+            from web servers. For example, typing www.deitel.com/books/downloads.html
+            into a web browser’s address field requests downloads.html from the books directory on
+            the web server running at www.deitel.com.We discuss web servers in detail in Chapter 21.
+            For now, we simply place the XHTML documents on our computer and render them by
+        </div>
+        <div class = "hidden">
+            opening them locally with a web browser such as Internet Explorer or Firefox.
+            4.3 First XHTML Example
+            This chapter presents XHTML markup and provides screen captures that show how a
+            browser renders (i.e., displays) the XHTML. You can download the examples from
+            www.deitel.com/books/iw3htp4. Every XHTML document we show has line numbers
+            for the reader’s convenience—these line numbers are not part of the XHTML documents.
+            As you read this book, open each XHTML document in your web browser so you can view
+            and interact with it as it was originally intended.
+        </div>
+        <div>
+            Figure 4.1 is an XHTML document named main.html. This first example displays
+        </div>
+        <div class = "scroll">
+            the message “Welcome to XHTML!” in the browser. The key line in the program is line
+            13, which tells the browser to display “Welcome to XHTML!” Now let us consider each
+            line of the program.
+            Lines 1–3 are required in XHTML documents to conform with proper XHTML
+            syntax. For now, copy and paste these lines into each XHTML document you create. The
+            meaning of these lines is discussed in detail in Chapter 14.
+            Lines 5–6 are XHTML comments. XHTML document creators insert comments to
+            improve markup readability and describe the content of a document. Comments also help
+            other people read and understand an XHTML document’s markup and content. Comments
+            do not cause the browser to perform any action when the user loads the XHTML
+        </div>
+         <div class = "auto">
+            document into the web browser to view it. XHTML comments always start with
+            4.3 First XHTML Example
+            This chapter presents XHTML markup and provides screen captures that show how a
+            browser renders (i.e., displays) the XHTML. You can download the examples from
+            www.deitel.com/books/iw3htp4. Every XHTML document we show has line numbers
+            for the reader’s convenience—these line numbers are not part of the XHTML documents.
+            As you read this book, open each XHTML document in your web browser so you can view
+            and interact with it as it was originally intended.
+            Figure 4.1 is an XHTML document named main.html. This first example displays
+            the message “Welcome to XHTML!” in the browser. The key line in the program is line
+            13, which tells the browser to display “Welcome to XHTML!” Now let us consider each
+            line of the program.
+        </div>    
+    </div>
+</body>
+<!-- 
+    overflow
+The CSS overflow property controls what happens to content that is too big to fit into an area.
+The overflow property specifies whether to clip content or to add scrollbars when the content of an element is too big to fit in a specified area.
+
+The overflow property has the following values:
+visible - Default. The overflow is not clipped. It renders outside the element's box
+hidden - The overflow is clipped, and the rest of the content will be invisible
+scroll - The overflow is clipped, but a scrollbar is added to see the rest of the content
+auto - If overflow is clipped, a scrollbar should be added to see the rest of the content
+
+Note: The overflow property only works for block elements with a specified height
+ -->
+</html>
