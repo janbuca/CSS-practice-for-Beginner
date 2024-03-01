@@ -1,0 +1,32 @@
+p:f irst-c hild {
+    color: blue;
+}
+
+a:visited {
+background-color: red;
+color: white;
+}
+
+a:link {
+background-color: blue;
+color: white;
+}
+
+a:active {
+background-color: orange;
+}
+a :hover {
+background-color: cyan;
+color: white;
+}
+nav:hover {
+background-color: #333;
+}
+p {
+display: none;
+background-color: yellow;
+padding:3px;
+}
+div:hover p {
+display: block;
+}
