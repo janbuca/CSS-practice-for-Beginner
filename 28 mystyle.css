@@ -1,0 +1,29 @@
+input[type=text]{
+    border: none;
+    border-bottom: 2px solid red;
+    background-image: url ('a.jpg');
+   
+}	
+ input{
+border: none;
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;;
+border: 2px solid #333;
+border-radius: 8px;
+background-color: red;
+background-color: blue;
+color: white;
+}
+input[type=text]:focus{
+ width: 1000%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ box-sizing: border-box;
+ background-color: black;
+}
+input[type=text]{
+border: 2px solid #333;
+border-radius: 8px;
+}
