@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+    Image border.
+        Image the used in 3 parts =-
+        1. to use as a border.
+        2. Whiere to slice the image.
+        3. Define whether the middle section be repeated or stretched.
+        border-image: source, slice, width, outset, repeat.
+
+     CSS border-image Property
+        The CSS border-image property allows you to specify an image to be used instead of the normal border around an element.
+
+    The property has three parts:
+    The image to use as the border
+    Where to slice the image
+    Define whether the middle sections should be repeated or stretched
+
+    Property Description
+        border-image A shorthand property for setting all the border-image-* properties
+        border-image-source Specifies the path to the image to be used as a border
+        border-image-slice Specifies how to slice the border image
+        border-image-width Specifies the widths of the border image
+        border-image-outset Specifies the amount by which the border image area extends beyond the border box
+        border-image-repeat Specifies whether the border image should be repeated, rounded or stretched
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Border</title>
+    <link rel="stylesheet" href="./30 mystyle.css">
+</head>
+<body>
+    <h1>The border-image Property.</h1>
+    <p>Here, the middle sections of yhe image are stretched to create the borser.</p>
+    <p id = "image__border">border-image: text one</p>
+    <p>Here is the original image</p><img src = "az.jpg" height ="300px">
+    <p><strong>Note:</strong>Internet Explorer 10, and earlier versions, do not supportive border.</p>
+ </body>
+</html>
