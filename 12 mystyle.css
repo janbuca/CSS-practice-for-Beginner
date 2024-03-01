@@ -1,0 +1,30 @@
+body{
+    box-sizing: content-box;
+    font-size: 10vw;
+}
+p{
+    color:blue;
+    text-align:left;
+    text-transform: uppercase;
+    letter-spacing:15px;
+    text-shadow:3px 8px black;
+    font-family:Times New Roman, Times, serif;
+    font-style:oblique;
+    font-size:20px;
+ }
+h1{
+    color:red;
+    text-decoration:underline;
+    word-spacing:5px;
+    line-height:50px;
+    font-style:italic;
+    font-size:6vw;
+}
+p.Firew{
+    color: blue;
+    text-indent: 15%;
+    text-shadow: 8px 10px rgb(91, 74, 74);
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif; 
+    font-style: italic;   
+}
