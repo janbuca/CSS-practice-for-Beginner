@@ -1,0 +1,13 @@
+[title~="ET"]{
+    border: 5px solid yellow;
+}
+/* ^, $, |, ~, * */
+[class|="ET"]{ 
+    background:yellow;
+}
+<!--a[target]{
+ background: yellow;
+}
+a[target="_blank"]{
+         background-color: orange;
+    }-->
