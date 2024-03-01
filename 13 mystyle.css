@@ -1,3 +1,42 @@
+body{
+    /* font-size:6vw; */
+}
+h1{
+    color:orange;
+    text-decoration:underline;
+    word-spacing:5px;
+    line-height:5px;
+    font-style:italic;
+    font-size:10vw;
+    text-shadow:5px 10px black;
+}
+h2{
+    color:red;
+    text-decoration:underline;
+    word-spacing:2px;
+    line-height:3px;
+    font-style:italic;
+    font-size:3vw;
+}
+p{
+    color:blue;
+    text-align:left;
+    text-transform: uppercase;
+    letter-spacing:5px;
+    text-shadow:1px 3px black;
+    font-family:Times New Roman, Times, serif;
+    font-style:oblique;
+    font-size:2px;
+ }
+p.Firew{
+  margin: 50px 30px 50px 30px;
+  padding-left:20px;
+  color:orange;
+  text-indent:10px;
+  font-style:italic;
+  font-size:2vw;
+  background-color:ffe5e5;
+ }
 a:link {
     color: black;
     background-color: white;
@@ -15,6 +54,13 @@ a:hover{
 }
 a:active {
     color: purple;
+}
+li{
+    display: inline-block;
+}
+
+ul.a{
+    list-style-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2F736x%2F3a%2Fde%2F99%2F3ade99c2c06666258d00c5bc5151fb06.jpg&tbnid=RCAC_xhNUWAO8M&vet=12ahUKEwiYn5iUt9KEAxXkTaQEHRVdCesQMygtegUIARC8AQ..i&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Fhistory-of-ethiopia--785104147538135929%2F&docid=GHM4kzIjx2LUoM&w=736&h=981&q=cartoon%20images%20ethiopian&ved=2ahUKEwiYn5iUt9KEAxXkTaQEHRVdCesQMygtegUIARC8AQ);
 }
 
 
