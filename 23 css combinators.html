@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- 
+    CSS Combinators
+        A combinator is something that explains the relationship between the selectors.
+        A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.
+        There are four different combinators in CSS:
+        descendant selector (space)
+        child selector (>)
+        adjacent sibling selector (+)
+        general sibling selector (~)
+ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinators</title>
+    <link rel="stylesheet" href="./23 mystyle.css">
+</head>
+<body>
+    <div>
+       <p>Paragraph one in the div.</p>
+       <p>Paragraph two in the div.</p>
+       <span><p>Paragraph two in the div.</p></span>		 
+    </div>
+    <p>Paragraph 4. It is not display in the div.</p>
+    <p>Paragraph 5. It is not display in the div.</p>
+    <div class ="firew">
+       <p>ET  one in the div.</p>
+       <p>ET two in the div.</p>
+       <span><p>ET 3 in the div.</p></span>		 
+    </div>
+    <p>ET 4. It is not display in the div.</p>
+    <p>ET 5. It is not display in the div.</p>
+ </body>
+</html>
