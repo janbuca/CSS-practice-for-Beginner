@@ -1,0 +1,25 @@
+h1{
+    position:relative;
+    left: 30px;
+    border: 3px dotted red;
+    background: orange;
+}
+h2{
+   position:fixed;
+   right: 0;
+   width: 300px;
+   border: 3px dashed #73AD21;
+}
+h3{
+  position:absolute;
+  top:80px;
+  right:0;
+  width:200px;
+  height:100px;
+  border: 3px solid blue;
+  z-index: 1;
+}
+h5{
+border: 3px dotted red;
+clear: left;
+}
