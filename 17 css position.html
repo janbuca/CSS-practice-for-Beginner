@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- 
+    The position Property
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+static
+relative
+fixed
+absolute
+sticky
+
+position: static;
+HTML elements are positioned static by default.
+
+position: relative;
+An element with position: relative; is positioned relative to its normal position.
+
+Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position.
+
+div.a {
+position: relative;
+left: 30px;
+border: 3px solid #73AD21;
+}
+div.c {
+position: fixed;
+bottom: 0;
+right: 0;
+width: 300px;
+border: 3px solid #73AD21;
+}
+
+
+position: absolute;
+An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+
+div.relative {
+position: relative;
+width: 400px;
+height: 200px;
+border: 3px solid #73AD21;
+}
+
+div.absolute {
+position: absolute;
+top: 80px;
+right: 0;
+width: 200px;
+height: 100px;
+border: 3px solid #73AD21;
+}
+
+overleaping elements
+img {
+position: absolute;
+left: 0px;
+top: 0px;
+z-index: -1;
+}
+ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./17 mystyle.css">
+</head>
+<body>
+    <header>
+        <p><b><i><strong><h1>ET<sup>2</sup>B Group</h1></strong><i></b></p>
+        <h2>Welcome our website channel!!!.</h2>
+        <p>To developing web site channel(ዋቢሳይት ማበልጨግ)</p>
+        <p class = "Firew">ሶፍትዌች ማበልጨግ(ማልማት) ይፈልጋሉ? እንግዲያውስ የእኛን የቴክኖሎጅ channel ይጎብኙ በእኛ channel የምናስተምራቸው ትምህርቶች
+                      ሲ++(C++), ጃቫ(JAVA), HTML5 ሲ ሰሰ(Css) ጃቫ እስክሪፒት(Java script) PHP, Python, etc.
+                      እንዲሁም የተለያዩ ሶፍትዌር የሚፈልጉ ከሆነ የሱቆት፣ ለትምህርት ቤቶት፣ የገበያ ማእከሎት፣ ለማስታወቂያ ስራዋት፣ እንዲሁም ሀሳቦትን የሚገልጭበት 
+                         የሚፈልጉ ከሆነ እሁኑኑ መተው እኛን ያናግሩን የእኛን እንዲሁም የሶን ሀሳቦትን አካተን የሚፈልጉት ጥቅም የሚያውሉትን አሪፍ እና መሳጭ
+                         እንዲሁም ለሰዋች ተወዳጅ(ተፈላጊ) የሆነ web site channel እንፈበርኮለታለን።</p>
+        <!--<img src = "108.jpg" alt ET Group width = "100%" height = "80%">
+        <div class = "promotion top"> <img src = "110.jpg" alt Promotions top width = "100%" height = "40%"></div>-->
+        <nav>
+           <ul>
+              <li><a href = "Home.html"> Home</a></li>
+              <li><a href = "Introductiontoc++"> C++</a></li>
+              <li><a href = "https://youtube/"> Java</a></li>
+              <li><a href = "https://youtube"> HTML5</a></li>
+              <li><a href = "https://youtube"> CSS</a></li>
+              <li><a href = "https://youtube"> Javascript</a></li>
+              <li><a href = "https://youtube"> PHP </a></li>
+              <li><a href = "https://youtube"> Python</a></li>
+              <li><a href = "https://youtube"> About</a></li>
+              <li><a href = "https://youtube"> Contact</a></li>
+           </ul>
+        </nav>
+     </header>
+</body>
+</html>
